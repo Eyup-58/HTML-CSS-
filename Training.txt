@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="web site 2.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,700;1,400&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+<body>
+    <section class="anasayfa">
+        <nav>
+            <a href="" class="buyukkutu"><img src="/websitesimages/logostransparent.png"></a>
+            <div class="kutu">
+               <ul>
+                <li><a href="">ANA SAYFA</a></li>
+                <li><a href="">SEÇENEKLERİMİZ</a></li>
+                <li><a href="">TECRÜBELERİMİZ</a></li>
+                <li><a href="">GEREKLİLİKLER</a></li>
+                <li><a href="">REFERANSLAR</a></li>             
+               </ul>
+            </div>
+        </nav>
+        <div class="altparagraf">
+            <h2> NEDEN BOSS HUGO BOSS ?</h2>
+            <p> Sizin için en iyi HTML CSS JAVASCRİPT eğitimini saglamak için <br> profosyonel kadrolarımız ve sınırsınz kaynaklarımız,mezuniyetinizden sonra iş bulma sıkıntu yaşamamanız için anlaşmalı şirketlerimiz var.</p>
+            
+            <a href="" class="dahafazlası">DAHA FAZLASI İÇİN TIKLAYININZ</a>
+        </div>
+       
+    </section>
+    
+  
+     
+</body>
+</html>

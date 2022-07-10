@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.anasayfa{
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/websitesimages/laptopbackgroudn.png);
+
+}
+.nav img{
+    width: 10%;
+    margin : 30px  25px;
+    padding : 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+.kutu{
+    flex: 1 ;
+    text-align: right;
+
+}
+.linka{
+    padding:20px ;
+}
+
+.kutu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+   
+
+}
+.kutu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    
+
+}
+
+.kutu ul li::after{
+
+ content: '';   
+ width: 0;
+ height: 2px;
+ background: black;
+ display: block;
+ margin: auto;
+ transition: 0.5s;
+}
+
+.kutu ul li:hover::after
+{
+    width: 100%;
+    
+
+}
+
+.altparagraf{
+    
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.altparagraf h2
+{
+    
+    font-size: 45px;
+
+}
+
+.altparagraf p{
+
+    font-size: 17px;
+    margin:10px 0 40px; 
+}
+
+.dahafazlası{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.dahafazlası:hover
+{
+    border: 1px solid white;
+    background:white;
+    transition: 1s;
+}
